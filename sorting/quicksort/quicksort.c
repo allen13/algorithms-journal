@@ -13,6 +13,10 @@ void printArray(int *array, int size){
   printf("\n");
 }
 
+// [8,6,7,5,3,0,9]
+// pivotVal = 9
+// lessThanIterator = 0
+//
 int partition(int *array, int start, int end){
   int pivotVal = array[end];
   int lessThanIterator = start;
